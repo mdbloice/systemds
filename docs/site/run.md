@@ -42,7 +42,7 @@ It can be beneficial to enter these into your `~/.profile` or `~/.bashrc` for li
 or your environment variables in windows to enable reuse between terminals and restarts.
 
 ```bash
-echo 'export SYSTEMDS_ROOT='$(pwd) >> ~/.bashrc
+echo 'export SYSTEMDS_ROOT='$(pwd)' >> ~/.bashrc
 echo 'export PATH=$SYSTEMDS_ROOT/bin:$PATH' >> ~/.bashrc
 ```
 
